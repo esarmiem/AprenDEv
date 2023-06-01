@@ -6,7 +6,7 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Features",
+    title: "Características",
     path: "#",
     children: [
       { title: "Action", path: "/" },
@@ -16,11 +16,11 @@ const menuitems = [
     ],
   },
   {
-    title: "Pricing",
+    title: "Precios",
     path: "/pricing",
   },
   {
-    title: "About",
+    title: "Acerca de",
     path: "/about",
   },
   {
@@ -28,7 +28,7 @@ const menuitems = [
     path: "/blog",
   },
   {
-    title: "Contact",
+    title: "Contacto",
     path: "/contact",
   },
 ];
@@ -39,8 +39,8 @@ const menuitems = [
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Astro</span><span
-            class="text-slate-500">ship</span
+          ><span class="font-bold text-slate-800">Apren</span><span
+            class="text-slate-500">Dev</span
           >
         </a>
         <div class="block lg:hidden">
@@ -74,15 +74,15 @@ const menuitems = [
           }
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
-          <Link href="#" style="muted" block size="md">Inicia Sesion</Link>
-          <Link href="#" size="md" block>Registrate</Link>
+          <Link href="#" style="muted" block size="md">Iniciar Sesión</Link>
+          <Link href="#" size="md" block>Regístrate</Link>
         </div>
       </MenuItems>
     </Astronav>
     <div>
       <div class="hidden lg:flex items-center gap-4">
-        <a href="#">Inicia Sesion</a>
-        <Link href="#" size="md">Registrate</Link>
+        <a href="#">Iniciar Sesión</a>
+        <Link href="#" size="md">Regístrate</Link>
       </div>
     </div>
   </header>
